@@ -1,0 +1,11 @@
+{
+  "video": "mixed_road_users.mp4",
+  "description": "Parking lot scene from intel-iot-devkit sample videos. Correspondences derived from Hough-detected stall line endpoints and their intersections with the header line. World frame: X along the header line, Y into the lot (toward camera). Assumes standard US angled parking: 2.7 m stall width at 60 degrees (3.117 m spacing along header), 5.0 m painted line length. Approximate calibration for development; real deployments measure the scene.",
+  "points": [
+    { "pixel": [364, 50], "world": [-3.117, 0.0], "note": "stall line A x header line" },
+    { "pixel": [525, 51], "world": [0.0, 0.0], "note": "stall line B x header line (origin)" },
+    { "pixel": [679, 54], "world": [3.117, 0.0], "note": "stall line C x header line" },
+    { "pixel": [323, 173], "world": [-2.5, 4.33], "note": "stall line B painted end" },
+    { "pixel": [520, 177], "world": [0.617, 4.33], "note": "stall line C painted end" }
+  ]
+}

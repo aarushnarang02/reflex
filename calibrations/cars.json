@@ -1,0 +1,10 @@
+{
+  "video": "cars.mp4",
+  "description": "Intel sample video: parking area exit road viewed from above at a shallow oblique. The scene has almost no road paint, so scale comes from a reference vehicle: the red sedan at frame 210, assumed 1.8 m wide x 4.6 m long (typical compact sedan footprint). Roof height introduces a small ground-plane error, acceptable for demo purposes. Validated by speed plausibility.",
+  "points": [
+    { "pixel": [330, 100], "world": [0.0, 0.0], "note": "sedan front-left at ground" },
+    { "pixel": [470, 100], "world": [1.8, 0.0], "note": "sedan front-right at ground" },
+    { "pixel": [310, 345], "world": [0.0, 4.6], "note": "sedan rear-left at ground" },
+    { "pixel": [490, 345], "world": [1.8, 4.6], "note": "sedan rear-right at ground" }
+  ]
+}

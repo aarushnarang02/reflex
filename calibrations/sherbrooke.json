@@ -1,0 +1,11 @@
+{
+  "video": "sherbrooke.avi",
+  "description": "Urban Tracker Sherbrooke sequence: downtown Montreal intersection (fixed IP camera, 2011). Correspondences use the intersection box: the far and near boundary lines of the cross street (Hough-detected) where they meet the mouth of the vertical street. Assumed real geometry: cross street width 13.5 m (four ~3.4 m lanes), vertical street mouth 11 m between boundary line endpoints. Approximate calibration pending survey data; validated by speed plausibility.",
+  "valid_region": { "x": [-12.0, 22.0], "y": [-4.0, 18.0] },
+  "points": [
+    { "pixel": [240, 318], "world": [0.0, 0.0], "note": "far boundary x left mouth edge" },
+    { "pixel": [620, 302], "world": [11.0, 0.0], "note": "far boundary x right mouth edge" },
+    { "pixel": [270, 492], "world": [0.0, 13.5], "note": "near boundary x left mouth edge" },
+    { "pixel": [640, 496], "world": [11.0, 13.5], "note": "near boundary x right mouth edge" }
+  ]
+}

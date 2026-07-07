@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+*.pt
+*.engine
+.DS_Store
+node_modules/
+.Rhistory
